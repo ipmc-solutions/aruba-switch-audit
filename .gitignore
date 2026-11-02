@@ -1,0 +1,19 @@
+# Credenziali di produzione e segreti
+credentials.json
+*.env
+*.credential
+
+# Report e log generati durante l'audit
+output/
+*_report.txt
+*.log
+
+# File contenente gli indirizzi IP reali della rete aziendale
+switches.txt
+
+# File temporanei di sistema e dell'IDE
+*.tmp
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
